@@ -12111,7 +12111,8 @@ Standard deviation of prices: $165,171.13
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong>
-Yes, 92.3% of the variance of the dependent variable is predictable from the independent variable.</p>
+The model had successfully captured the variation of the target, considering it has a high coefficient of determination (close to the optimal R2 score). 
+In other words, 92.3% of the target value can be explained by the features, indicating that the model has a good performance for prediction.</p>
 
 </div>
 </div>
@@ -12188,7 +12189,8 @@ Yes, 92.3% of the variance of the dependent variable is predictable from the ind
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p>Splitting a dataset provides a step which the learning algorithm can be tested and validated before used in real world.</p>
+<p>Splitting a dataset provides a step which the learning algorithm can be tested and validated before used in real world. This approach helps the modeling process to avoid overfitting or underfitting situations that could affect the predictability of the model.
+If the model fits too closely to the training dataset, good chances that it won't generalized for new data, having bad predictions on the test dataset. On the other hand, a model could also not fit the training data, which means that cannot be generalized to new data as well, having a poor predictive ability.</p>
 
 </div>
 </div>
@@ -12770,6 +12772,7 @@ Range in prices: $69,044.61
 <li>The data collected in a urban city is not applicable in a rural one, considering different values from the features between both style of city.</li>
 <li>The price of an individual home can be influenced by the characteritics of the entire neighborhood, however others individual features should be considered to predict the price of a house.</li>
 </ul>
+<p>Considering these points, the constructed model shouldn't be used in a real-world because there are a lot of improvements that could be done to have a better performance for price predictions. However, it could be used as a start to create a reliable model.</p>
 
 </div>
 </div>
